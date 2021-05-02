@@ -230,7 +230,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: install
-          key: oclgrind-ubuntu-20.04-llvm-12-gcc-Release-${{github.sha}}
+          key: oclgrind-ubuntu-20.04-llvm-12-gcc-Debug-${{github.sha}}
       - name: cache-cts
         uses: actions/cache@v2
         with:
